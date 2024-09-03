@@ -4,8 +4,7 @@ echo 'Enter -1 to exit'
 #loop begins
 while true
 do 
-	echo -n "Enter a number " 
-	read num
+	read -p "Enter a number " num 
 
 	#check whether user enters -1
 	if test $num -eq -1
